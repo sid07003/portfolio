@@ -1,0 +1,18 @@
+@keyframes borderGradient {
+  0% {
+    border-image: linear-gradient(45deg, #a855f7, #6366f1, #00f0ff) 1;
+  }
+  50% {
+    border-image: linear-gradient(135deg, #6366f1, #00f0ff, #a855f7) 1;
+  }
+  100% {
+    border-image: linear-gradient(225deg, #00f0ff, #a855f7, #6366f1) 1;
+  }
+}
+
+.animate-gradient-border {
+  border-style: solid;
+  border-width: 2px;
+  border-image-slice: 1;
+  animation: borderGradient 3s infinite linear;
+}

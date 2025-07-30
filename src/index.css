@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  background-color: black;
+  background-image: 
+    linear-gradient(to right, rgba(255, 0, 150, 0.06) 1px, transparent 1px),
+    linear-gradient(to right, rgba(0, 255, 255, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 255, 100, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 255, 0.06) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-blend-mode: screen;
+  color: white;
+}
+
+/* Remove any margin/padding on html/body if present */
+html, body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; /* Optional: for smooth scrolling */
+}
+
+/* Ensure no elements have negative margins */
+* {
+  box-sizing: border-box;
+}

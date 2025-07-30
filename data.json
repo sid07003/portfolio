@@ -1,0 +1,211 @@
+[
+  {
+    "title": "BeatX",
+    "subtitle": "BeatX is a modern full-stack music streaming app with personalized playlists, song liking, and seamless playback—crafted for an immersive audio experience.",
+    "stats": {
+      "technologies": 8,
+      "keyFeatures": 8
+    },
+    "links": {
+      "github": "https://github.com/sid07003/beatx3.0"
+    },
+    "technologies": [
+      { "name": "Python", "path": "pythonIcon" },
+      { "name": "React.js", "path": "reactIcon" },
+      { "name": "Redux", "path": "reduxIcon" },
+      { "name": "Node.js", "path": "nodeIcon" },
+      { "name": "Express.js", "path": "expressIcon" },
+      { "name": "MongoDB", "path": "mongoIcon" },
+      { "name": "JWT", "path": "jwtIcon" },
+      { "name": "Tailwind", "path": "tailwindIcon" }
+    ],
+    "features": [
+      {
+        "icon": "Shield",
+        "title": "Authentication",
+        "description": "Secure login and signup with JWT-based authentication, including protected routes and user session validation for enhanced privacy."
+      },
+      {
+        "icon": "Heart",
+        "title": "Liked Songs",
+        "description": "Users can easily like or unlike songs and access their personalized favorites across all devices for a consistent music journey."
+      },
+      {
+        "icon": "Library",
+        "title": "Custom Playlists",
+        "description": "Create, manage, and enjoy personal playlists with a user-friendly interface designed to simplify your music organization process."
+      },
+      {
+        "icon": "Play",
+        "title": "Music Playback",
+        "description": "Experience seamless playback with support for individual tracks and full playlists, including intuitive next and previous controls."
+      },
+      {
+        "icon": "Search",
+        "title": "Powerful Search",
+        "description": "Quickly find songs with responsive real-time search, intelligently paired with recently searched history for smart suggestions."
+      },
+      {
+        "icon": "LayoutDashboard",
+        "title": "Dynamic Home Feed",
+        "description": "Your home feed adapts dynamically with trending albums, artist playlists, and your activity to offer a personalized experience."
+      },
+      {
+        "icon": "User",
+        "title": "User-Centric UX",
+        "description": "Intuitive design that guides users with subtle prompts like login requests before playback, ensuring smooth and secure access."
+      },
+      {
+        "icon": "Globe",
+        "title": "Full Stack Integration",
+        "description": "Clean architecture with a fully decoupled frontend and backend stack for reliable performance and easier maintenance at scale."
+      }
+    ],
+    "media": {
+      "screenshots": [
+        "images/beatx_screenshot1.png",
+        "images/beatx_screenshot2.png",
+        "images/beatx_screenshot3.png",
+        "images/beatx_screenshot4.png",
+        "images/beatx_screenshot5.png"
+      ]
+    }
+  },
+  {
+    "title": "Youtellect",
+    "subtitle": "Youtellect is a smart YouTube summarizer app that leverages LLMs to deliver crisp summaries, timelines, and notes—turning long videos into digestible insights.",
+    "stats": {
+      "technologies": 4,
+      "keyFeatures": 5
+    },
+    "links": {
+      "github": "https://github.com/sid07003/Youtellect-backend"
+    },
+    "technologies": [
+      { "name": "React.js", "path": "reactIcon" },
+      { "name": "Python", "path": "pythonIcon" },
+      { "name": "FastAPI", "path": "fastapiIcon" },
+      { "name": "LLM", "path": "llmIcon" }
+    ],
+    "features": [
+      {
+        "icon": "Brain",
+        "title": "LLM-Powered Summaries",
+        "description": "Uses Meta's open-source LLM to generate detailed summaries and smart breakdowns of YouTube videos, saving users time and effort."
+      },
+      {
+        "icon": "Clock",
+        "title": "Timestamped Timelines",
+        "description": "Extracts key moments and topics with timestamps to help users navigate through videos more efficiently and focus on what matters."
+      },
+      {
+        "icon": "List",
+        "title": "Study-Ready Notes",
+        "description": "Generates well-structured, exam-style notes perfect for revision, learning, or reviewing technical and educational content."
+      },
+      {
+        "icon": "Search",
+        "title": "Video Info + Transcript",
+        "description": "Fetches video metadata and full transcript to support precise and meaningful processing before applying LLM summarization."
+      },
+      {
+        "icon": "ServerCog",
+        "title": "Full Stack Architecture",
+        "description": "Built on a decoupled MERN + Python architecture to support scalable and AI-powered performance."
+      }
+    ],
+    "media": {
+      "screenshots": [
+        "images/youtellect_screenshot1.png",
+        "images/youtellect_screenshot2.png",
+        "images/youtellect_screenshot3.png",
+        "images/youtellect_screenshot4.png"
+      ]
+    }
+  },
+  {
+    "title": "Narayan News",
+    "subtitle": "Narayan News is a fast, category-based news platform built with React. It leverages a third-party News API to deliver real-time headlines across business, tech, sports, and more—all in a clean, responsive interface.",
+    "stats": {
+      "technologies": 2,
+      "keyFeatures": 3
+    },
+    "links": {
+      "github": "https://github.com/sid07003/Narayan-News"
+    },
+    "technologies": [
+      { "name": "React.js", "path": "reactIcon" },
+      { "name": "News API", "path": "fastapiIcon" }
+    ],
+    "features": [
+      {
+        "icon": "Newspaper",
+        "title": "Live News by Category",
+        "description": "Fetches and displays real-time news across various categories such as business, technology, sports, and entertainment using a public News API."
+      },
+      {
+        "icon": "Smartphone",
+        "title": "Responsive Design",
+        "description": "Optimized for both desktop and mobile viewing, providing a seamless reading experience across all screen sizes."
+      },
+      {
+        "icon": "Clock",
+        "title": "Real-Time Updates",
+        "description": "Ensures users get the latest headlines by pulling fresh data dynamically from the API on each category click."
+      }
+    ],
+    "media": {
+      "screenshots": ["images/news_screenshot1.png"]
+    }
+  },
+  {
+    "title": "Software Developer Intern - fourkites",
+    "subtitle": "Contributed as a Full Stack Intern at FourKites, building enterprise-grade features across Angular, React, Spring Boot, and Ruby. Enhanced observability and debugging automation through LLM-based tools.",
+    "stats": {
+      "technologies": 7,
+      "keyFeatures": 5
+    },
+    "links": {
+      "github": null
+    },
+    "technologies": [
+      { "name": "Angular", "path": "angularIcon" },
+      { "name": "React.js", "path": "reactIcon" },
+      { "name": "Spring Boot", "path": "springIcon" },
+      { "name": "Ruby", "path": "rubyIcon" },
+      { "name": "Python", "path": "pythonIcon" },
+      { "name": "LLM", "path": "llmIcon" },
+      { "name": "Postgresql", "path": "postgresIcon"}
+    ],
+    "features": [
+      {
+        "icon": "ServerCog",
+        "title": "Enterprise Module Revamp",
+        "description": "Redesigned logistics modules handling 15M+ records, streamlining workflows and reducing support tickets by 30%."
+      },
+      {
+        "icon": "Brain",
+        "title": "LLM-Powered RCA Automation",
+        "description": "Used Azure OpenAI and Python to parse Signoz logs, automating root cause analysis and reducing manual debugging effort."
+      },
+      {
+        "icon": "Bug",
+        "title": "Manual RCA & Ticket Debugging",
+        "description": "Resolved real-time production issues and support tickets with quick turnaround by performing manual root cause analysis and code-level debugging."
+      },
+      {
+        "icon": "Shield",
+        "title": "Role-Based Access & Security",
+        "description": "Built secure role-based UIs and backend validations, ensuring fine-grained access control across the platform."
+      },
+      {
+        "icon": "GitPullRequest",
+        "title": "Cross-Stack Collaboration",
+        "description": "Worked across teams using modern CI/CD, RESTful APIs, and Agile workflows to deliver robust full-stack features on time."
+      }
+    ],
+    "media": {
+      "screenshots": []
+    }
+  }
+]
