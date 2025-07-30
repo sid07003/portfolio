@@ -71,7 +71,7 @@ export default function App() {
         {/* Left Section - Logo & Name */}
         <div className="left-section z-50 flex items-center">
           <img
-            src="../public/images/logo.jpeg"
+            src="images/logo.jpeg"
             alt="Profile"
             className="w-16 h-16 rounded-full object-cover"
           />
@@ -326,7 +326,7 @@ export default function App() {
         {/* Right - Image */}
         <div className="flex-1 flex justify-center items-center">
           <img
-            src="../public/images/Programming-pana.svg"
+            src="images/Programming-pana.svg"
             alt="Developer Illustration"
             className="max-w-xs md:max-w-sm lg:max-w-md w-full h-auto object-contain"
           />
