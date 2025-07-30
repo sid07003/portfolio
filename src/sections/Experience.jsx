@@ -34,16 +34,16 @@ const ExperienceTimeline = () => (
   <div id="experience" className="max-w-4xl mx-auto">
     <div className="relative">
       {/* Timeline Line */}
-      <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 to-blue-500"></div>
+      <div className="absolute md:left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-purple-500 to-blue-500"></div>
 
       {/* Timeline Items */}
       <div className="space-y-12">
         {/* Future Opportunity Placeholder */}
         <div className="relative flex items-start">
-          <div className="absolute left-5 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full border-4 border-gray-900 shadow-lg flex items-center justify-center">
+          <div className="absolute -left-3 md:left-5 w-6 h-6 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full border-4 border-gray-900 shadow-lg flex items-center justify-center">
             <Plus className="w-3 h-3 text-white" />
           </div>
-          <div className="ml-20">
+          <div className=" ml-5 md:ml-20">
             <div className="bg-gradient-to-br from-purple-900/20 to-pink-900/20 backdrop-blur-sm rounded-xl border border-purple-500/30 border-dashed p-6 shadow-xl">
               <div className="text-center">
                 <h3 className="text-lg font-bold text-purple-300 mb-2">
@@ -64,8 +64,8 @@ const ExperienceTimeline = () => (
 
         {/* Current Internship */}
         <div className="relative flex items-start">
-          <div className="absolute left-6 w-4 h-4 bg-green-500 rounded-full border-4 border-gray-900 shadow-lg"></div>
-          <div className="ml-20">
+          <div className="absolute -left-2 md:left-6 w-4 h-4 bg-green-500 rounded-full border-4 border-gray-900 shadow-lg"></div>
+          <div className=" ml-5 md:ml-20 overflow-scroll md:overflow-hidden">
             <div className="bg-gray-800/90 backdrop-blur-sm rounded-xl border border-gray-700/50 p-6 shadow-xl">
               <div className="flex items-start justify-between mb-4">
                 <div className="flex items-center gap-3">
@@ -81,7 +81,7 @@ const ExperienceTimeline = () => (
                 </div>
                 <Link
                   to={`/fourkites`}
-                  className="text-xs bg-green-500/20 text-green-400 flex gap-3 cursor-pointer p-3 rounded-xl border border-transparent hover:border-green-400 hover:shadow-[0_0_10px_2px_rgba(34,197,94,0.4)] transition-all duration-300"
+                  className="text-xs bg-green-500/20 text-green-400 flex flex-col md:flex-row gap-3 cursor-pointer p-1 md:p-3 rounded-xl border border-transparent hover:border-green-400 hover:shadow-[0_0_10px_2px_rgba(34,197,94,0.4)] transition-all duration-300"
                 >
                   View details <ArrowRight size={14} />
                 </Link>
