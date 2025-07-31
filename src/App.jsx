@@ -204,7 +204,7 @@ export default function App() {
           <div className="flex flex-wrap justify-center lg:justify-start gap-4 mb-4">
             {/* Download CV Button */}
             <a
-              href="../public/resume/Siddharth_Sharma_Resume.pdf"
+              href="/resume/Siddharth_Sharma_Resume.pdf"
               download
               className="px-6 py-3 flex items-center justify-center gap-2 text-white bg-black bg-opacity-30 border border-transparent rounded-lg relative overflow-hidden hover:scale-105 transition-transform duration-300 min-w-[160px]"
             >
