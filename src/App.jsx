@@ -75,8 +75,9 @@ export default function App() {
             alt="Profile"
             className="w-16 h-16 rounded-full object-cover"
           />
-          <div className="pl-5 flex flex-col justify-center text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-purple-400 text-sm sm:text-base md:text-xl lg:text-2xl font-semibold tracking-wide">
-            Siddharth Sharma
+          <div>
+            <div className="pl-5 flex flex-col justify-center text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-purple-400 text-sm sm:text-base md:text-xl lg:text-2xl font-semibold tracking-wide">Siddharth Sharma</div>
+            <div className="pl-5 flex flex-col justify-center text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-purple-400 text-sm sm:text-base font-semibold tracking-wide">siddharthsharma0722@gmail.com</div>
           </div>
         </div>
 
@@ -216,7 +217,7 @@ export default function App() {
             </a>
 
             {/* Contact Button */}
-            <a
+            {/* <a
               href="mailto:siddharthsharma0722@gmail.com"
               className="px-6 py-3 flex items-center justify-center gap-2 text-white bg-black bg-opacity-30 border border-transparent rounded-lg relative overflow-hidden hover:scale-105 transition-transform duration-300 min-w-[160px]"
             >
@@ -225,7 +226,7 @@ export default function App() {
                 <Mail className="w-4 h-4" />
                 <span>Contact</span>
               </span>
-            </a>
+            </a> */}
           </div>
 
           <div
@@ -343,7 +344,7 @@ export default function App() {
              grid grid-cols-2 gap-4 
              md:flex md:flex-row md:justify-center md:items-center 
              bg-black/25 backdrop-blur-md backdrop-saturate-150 text-white">
-          <a
+          {/* <a
             href="to:siddharthsharma0722@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -395,7 +396,7 @@ export default function App() {
                 <span className="text-sm text-gray-400">on Email</span>
               </div>
             </div>
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/sid07003/"
             target="_blank"
