@@ -175,7 +175,7 @@
       { "name": "Ruby", "path": "rubyIcon" },
       { "name": "Python", "path": "pythonIcon" },
       { "name": "LLM", "path": "llmIcon" },
-      { "name": "Postgresql", "path": "postgresIcon"}
+      { "name": "Postgresql", "path": "postgresIcon" }
     ],
     "features": [
       {
@@ -202,6 +202,61 @@
         "icon": "GitPullRequest",
         "title": "Cross-Stack Collaboration",
         "description": "Worked across teams using modern CI/CD, RESTful APIs, and Agile workflows to deliver robust full-stack features on time."
+      }
+    ],
+    "media": {
+      "screenshots": []
+    }
+  },
+  {
+    "title": "Intervia",
+    "subtitle": "Intervia is a real-world mock interview platform connecting students with professionals. It features role-based access, profile building, interview scheduling, feedback sharing, and Kafka-based event streaming.",
+    "stats": {
+      "technologies": 7,
+      "keyFeatures": 6
+    },
+    "links": {
+      "github": "https://github.com/sid07003/Intervia"
+    },
+    "technologies": [
+      { "name": "Java", "path": "javaIcon" },
+      { "name": "Spring Boot", "path": "springIcon" },
+      { "name": "MySQL", "path": "mySqlIcon" },
+      { "name": "Kafka", "path": "kafkaIcon" },
+      { "name": "Docker", "path": "dockerIcon" },
+      { "name": "JWT", "path": "jwtIcon" },
+      { "name": "Maven", "path": "mavenIcon" }
+    ],
+    "features": [
+      {
+        "icon": "User",
+        "title": "Role-Based Access",
+        "description": "Supports distinct roles for students and professionals, offering tailored access and functionality across the platform."
+      },
+      {
+        "icon": "LayoutDashboard",
+        "title": "Profile Management",
+        "description": "Students and professionals can create detailed profiles with resumes, skills, and projects for better visibility."
+      },
+      {
+        "icon": "Calendar",
+        "title": "Interview Scheduling",
+        "description": "Students can book slots, and professionals can manage availability with real-time conflict checks and validations."
+      },
+      {
+        "icon": "MessageSquare",
+        "title": "Feedback & Acceptance",
+        "description": "Professionals can accept/decline interviews and provide structured feedback to students after the session."
+      },
+      {
+        "icon": "Zap",
+        "title": "Kafka-Based Messaging",
+        "description": "Real-time events like interview booking and feedback sharing are handled through Kafka producers and consumers."
+      },
+      {
+        "icon": "Shield",
+        "title": "Secure JWT Authentication",
+        "description": "Ensures secure access and protected endpoints with Spring Security and JWT-based authentication."
       }
     ],
     "media": {

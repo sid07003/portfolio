@@ -25,6 +25,8 @@ import {
   List,
   ServerCog,
   Newspaper,
+  Calendar,
+  MessageSquare
 } from "lucide-react";
 const iconMap = {
   ExternalLink,
@@ -51,6 +53,8 @@ const iconMap = {
   List,
   ServerCog,
   Newspaper,
+  Calendar,
+  MessageSquare
 };
 
 import data from "../../data.json";

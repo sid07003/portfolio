@@ -185,6 +185,13 @@ const ProjectsSection = ({ showMore, setShowMore }) => {
       githubLink: "https://github.com/sid07003/BeatX3.0",
     },
     {
+      title: "Intervia",
+      description:
+        "Intervia is a real-world mock interview platform connecting students with professionals. It features role-based access, profile building, interview scheduling, feedback sharing, and Kafka-based event streaming.",
+      image: "images/Intervia.png",
+      githubLink: "https://github.com/sid07003/Intervia",
+    },
+    {
       title: "Youtellect",
       description:
         "Youtellect is a smart video summarizer that extracts key points, timelines, and study-ready notes from YouTube videos to boost learning efficiency.",
@@ -299,87 +306,55 @@ const CertificatesSection = () => {
   );
 };
 
-// Skills Component
-const SkillCategory = ({ title, skills, icon: Icon, color }) => (
-  <div className="bg-gray-800/90 backdrop-blur-sm rounded-xl border border-gray-700/50 p-6 shadow-xl">
-    <div className="flex items-center gap-3 mb-4">
-      <div
-        className={`w-12 h-12 bg-gradient-to-br ${color} rounded-lg flex items-center justify-center`}
-      >
-        <Icon className="w-6 h-6 text-white" />
-      </div>
-      <h3 className="text-xl font-bold text-white">{title}</h3>
-    </div>
-
-    <div className="grid grid-cols-2 gap-3">
-      {skills.map((skill, index) => (
-        <div
-          key={index}
-          className="bg-gray-700/50 rounded-lg p-3 text-center hover:bg-gray-600/50 transition-colors"
-        >
-          <div className="text-2xl mb-2">{skill.icon}</div>
-          <div className="text-white font-medium text-sm">{skill.name}</div>
-          <div className="text-gray-400 text-xs">{skill.level}</div>
-        </div>
-      ))}
-    </div>
-  </div>
-);
-
 const SkillsSection = () => {
   const skillCategories = [
-    {
-      title: "Frontend",
-      icon: Code,
-      color: "from-blue-600 to-cyan-600",
-      skills: [
-        { name: "React.js", icon: "⚛️" },
-        { name: "Angular", icon: "🅰️" },
-        { name: "JavaScript", icon: "🟨" },
-        { name: "TypeScript", icon: "🔷" },
-        { name: "Tailwind CSS", icon: "🎨" },
-      ],
-    },
-    {
-      title: "Backend",
-      icon: Cog,
-      color: "from-purple-600 to-pink-600",
-      skills: [
-        { name: "Node.js", icon: "🟢" },
-        { name: "Express.js", icon: "🚀" },
-        { name: "MongoDB", icon: "🍃" },
-        { name: "PostgreSQL", icon: "🐘" },
-        { name: "Spring Boot", icon: "🌱" },
-        { name: "Python", icon: "🐍" },
-        { name: "LLM", icon: "🧠" },
-      ],
-    },
-    {
-      title: "Tools & Others",
-      icon: Briefcase,
-      color: "from-emerald-600 to-green-600",
-      skills: [
-        { name: "Git", icon: "📚" },
-        { name: "GitHub", icon: "🐙" },
-        { name: "Postman", icon: "📬" },
-        { name: "VS Code", icon: "📝" },
-        { name: "LLM", icon: "🧠" },
-      ],
-    },
+    { name: "JavaScript", path: "javascriptIcon" },
+    { name: "TypeScript", path: "typescriptIcon" },
+    { name: "React.js", path: "reactIcon" },
+    { name: "AngularJS", path: "angularIcon" },
+    { name: "Node.js", path: "nodeIcon" },
+    { name: "Express.js", path: "expressIcon" },
+    { name: "SpringBoot", path: "springIcon" },
+    { name: "Java", path: "javaIcon" },
+    { name: "Python", path: "pythonIcon" },
+    { name: "C++", path: "cppIcon" },
+    { name: "MongoDB", path: "mongoIcon" },
+    { name: "MySQL", path: "mySqlIcon" },
+    { name: "Kafka", path: "javaIcon" },
+    { name: "Docker", path: "dockerIcon" },
+    { name: "Git", path: "gitIcon" },
+    { name: "GitHub", path: "githubIcon" },
+    { name: "Postman", path: "postmanIcon" },
+    { name: "Tailwind", path: "tailwindIcon" },
+    { name: "LLM", path: "llmIcon" },
   ];
 
   return (
     <div id="skills" className="max-w-7xl mx-auto">
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {skillCategories.map((category, index) => (
-          <SkillCategory key={index} {...category} />
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-10 gap-5">
+        {skillCategories.map((tech, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center justify-center bg-white/10 backdrop-blur-sm rounded-2xl p-6 pb-4 border border-white/20 hover:bg-white/20 transition-all duration-300 hover:scale-105 group"
+          >
+            <div
+              className={`h-9 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform`}
+            >
+              <img src={`images/${tech.path}.png`} className="h-15" />
+            </div>
+            <h3 className="font-semibold text-white">{tech.name}</h3>
+          </div>
         ))}
       </div>
     </div>
   );
 };
 
-export default function CompletePortfolioSections({ activeTab, setActiveTab, setSelected }) {
+export default function CompletePortfolioSections({
+  activeTab,
+  setActiveTab,
+  setSelected,
+}) {
   const [showMore, setShowMore] = useState(false);
 
   const tabs = [
@@ -407,7 +382,10 @@ export default function CompletePortfolioSections({ activeTab, setActiveTab, set
   };
 
   return (
-    <div id="portfolioSection" className="min-h-screen bg-gray-900 p-8 pt-15 mt-35">
+    <div
+      id="portfolioSection"
+      className="min-h-screen bg-gray-900 p-8 pt-15 mt-35"
+    >
       <motion.div
         className="flex flex-wrap gap-4 mb-12 justify-center"
         initial={{ opacity: 0, y: 50 }}
@@ -422,7 +400,7 @@ export default function CompletePortfolioSections({ activeTab, setActiveTab, set
             onClick={() => {
               setActiveTab(tab.id);
               setShowMore(false);
-              setSelected(tab.id)
+              setSelected(tab.id);
             }}
             icon={tab.icon}
           >
